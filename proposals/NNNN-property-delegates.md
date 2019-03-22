@@ -546,8 +546,8 @@ let $y = 17   // error: cannot declare entity with $-prefixed name '$y'
 
 There are a number of restrictions on the use of property delegates when defining a property:
 
-* A property with a delegate may not declared inside a protocol.
-* An instance property with a delegate may not declared inside an extension.
+* A property with a delegate may not be declared inside a protocol.
+* An instance property with a delegate may not be declared inside an extension.
 * An instance property may not be declared in an `enum`.
 * A property with a delegate that is declared within a class must be
 `final` and cannot override another property. 
